@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="jobform.html">
+   <p><h2>Complex Form</h2></p> <br>
+
+   <fieldset>
+    <legend><b>Personal Information</b></legend>
+      <label for="fname">Name</label>
+      <input type="text" id="fname">
+          <label for="email">Email</label>
+          <input type="email" id="email">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone">
+             <label for="DOB">Date of Birth</label>
+             <input type="date" id="DOB">
+              <label for="Gender">Gender</label>
+               <label for="M"><input type="radio" value="male" name="gender" id="M">Male</label>
+                <label for="F"><input type="radio" value="female" name="gender" id="F">Female</label>
+                 <label for="country">Country</label>
+                  <select name="country" id="country">
+                   <option value="country1">United States</option>
+                   <option value="country2">india</option>
+                   <option value="country3">New Zealand</option>
+                   <option value="country4">Eygpt</option>
+            </select>
+        </fieldset>
+   <fieldset>
+    <legend>
+        Address 
+        <label for="street">Street: </label>
+        <input type="text" id="street">
+        <label for="city">City: </label>
+        <input type="text" id="city">
+        <label for="state">State:</label>
+        <input type="text" id="state">
+        <label for="zcode">Zip Code</label>
+        <input type="tel" id="zcode">
+    </legend>
+   </fieldset>
+   <fieldset>
+    <legend>Other information</legend>
+    <label for="comments">comments <textarea name="comments" id="comments" rows="5" cols="50"></textarea> I agree to the terms and condition.<input type="checkbox" name="click"></label>
+</fieldset>
+<input type="submit" value="Submit"></form>
+</body>
+</html>
